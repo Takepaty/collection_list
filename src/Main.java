@@ -48,7 +48,6 @@ class ExemplosList {
 
         System.out.println("Exiba a maior nota: " + Collections.max(notas));
 
-
         Iterator<Double> iterator = notas.iterator();
         Double soma = 0d;
         while(iterator.hasNext()){   //has.Next verifica se tem o proximo
@@ -80,9 +79,5 @@ class ExemplosList {
         System.out.println(notas);
 
         System.out.println("Confira se a lista está vazia: " + notas.isEmpty());
-
-
-
-
     }
 }
